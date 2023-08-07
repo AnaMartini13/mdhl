@@ -8,7 +8,7 @@
 h1{
     position: absolute;
     margin: -8px 8px;
-    font-size-adjust: 1; 
+    font-size-adjust: .85; 
     z-index: 1;
 }
 
@@ -18,7 +18,7 @@ h1{
 
 #banner1{
     width: 100%;
-    height: 300px;
+    height: 250px;
     object-fit: cover;
     object-position: 0% 11%;
     position: relative;
@@ -27,15 +27,15 @@ h1{
 #logo{
     position: absolute;
     right: 125px;
-    top: 197px;
-    width: 17%;
+    top: 157px;
+    width: 15%;
 }
 
 h2{
     text-align: center;
     background-color: black;
     color: white;
-    font-size-adjust: 0.75;
+    font-size-adjust: 0.65;
     bottom: 10%;
 }
 
@@ -63,7 +63,7 @@ nav>a{
 
 #calendar{
     position: absolute;
-    top: 410px;
+    top: 355px;
     left: 300px;
     font-size: 1.1rem;
     
@@ -77,20 +77,19 @@ section>p{
 
 #sobre{
     position: absolute;
-    top: 410px;
+    top: 355px;
     left: 100px;
     padding-left: 10%;
     padding-right: 10%;
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
 main>p{
     position: absolute;
-    top: 430px;
+    top: 355px;
     left: 100px;
     padding-left: 10%;
     padding-right: 10%;
-    padding-bottom: 10%;
     font-size: 1.1rem;
     line-height: 2;
 }
