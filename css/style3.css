@@ -95,18 +95,22 @@ li{
     list-style-type: lower-latin;
 }
 
-#schedule{
+.schedule{
     font-size: 1.1rem;
+    justify-content: center;
 }
 
-table{
+.tabla{
     padding-bottom: 1em;
+    padding-left: 12rem;
     text-align: center;
 }
+
 th{
     border: 1px solid black;
     width: 10rem;
 }
+
 td{
     justify-content: center;
     height: 3rem;
@@ -121,3 +125,9 @@ article{
 #data{
     font-size: 1.1rem;
 }    
+
+.details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
