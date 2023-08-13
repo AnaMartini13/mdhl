@@ -114,6 +114,11 @@ th{
 td{
     justify-content: center;
     height: 3rem;
+    border-bottom: 1px solid black;
+}
+
+.inner{
+    border-bottom: none;
 }
 
 #sobre{
@@ -134,4 +139,8 @@ article{
 
 section div{
     font-size: 1.1rem;
+}
+
+.aclaraciones{
+    padding-bottom: 1em;
 }
