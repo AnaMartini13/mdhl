@@ -5,6 +5,11 @@
     font-family: Verdana;
 }
 
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 h1{
     margin-left: 8px;
     font-size-adjust: 1;
@@ -98,12 +103,16 @@ li{
 .schedule{
     font-size: 1.1rem;
     justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .tabla{
     padding-bottom: 1em;
-    padding-left: 12rem;
+    padding-left: 3.7em;
     text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 th{
@@ -131,3 +140,51 @@ article{
     flex-direction: row;
     justify-content: space-between;
 }
+
+#aclaraciones{
+    padding-bottom: 1em;
+}
+
+.registration fieldset{
+    border: 0;
+    margin-bottom: 1em;
+    display: flex;
+    flex-direction: row;
+}
+
+.registration label{
+    margin-right: 1em;
+}
+
+label .gender{
+    margin-right: 0
+}
+
+.registration .fcolumn{
+    display:flex;
+    flex-direction: column;
+}
+
+input{
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+#send{
+    padding: 3px;
+}
+
+.maps{
+    display:flex;
+    flex-direction: row;
+    align-items: left;
+    margin-top: 3em;
+    height: 150px;
+    width: 150px;
+}
+
+iframe{
+    margin-inline: 7px;
+}
+
