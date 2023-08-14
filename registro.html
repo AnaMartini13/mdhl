@@ -62,13 +62,17 @@
                             <span>Birth Date(mm/dd/yyyy): </span>
                             <input type="number" name="bdate" required>
                         </label>
-                        <label>
+                        <fieldset>
                             <span>Gender: </span>
-                            <label for="Female" class="gender">Female</label>
-                            <input type="radio" name="gender" value="female">
-                            <label for="Male" class="gender">Male</label>
-                            <input type="radio" name="gender" value="male">
-                        </label> 
+                            <label>
+                                <span> Female</span>
+                                <input type="radio" name="gender" value="female">
+                            </label>
+                            <label>
+                                <span> Male</span>
+                                <input type="radio" name="gender" value="male">    
+                            </label>
+                        </fieldset> 
                     </fieldset>
                     <fieldset class="fcolumn">
                         <span>Grade: </span>
@@ -99,10 +103,9 @@
                     </fieldset>
                     <fieldset class="fcolumn">
                         <legend><strong>Which elementary school do you live near?</strong></legend>
-                        <legend><strong>Closest School:</strong></legend>
                         <label>
                             <select name="school">
-                                <option value="" selected disabled>Choose...</option>
+                                <option value="" selected disabled>Closest school...</option>
                                 <option value="AJ Katzenmaier">AJ Katzenmaier</option>
                                 <option value="Greenbay">Greenbay</option>
                                 <option value="Howard A Yeager">Howard A Yeager</option>
